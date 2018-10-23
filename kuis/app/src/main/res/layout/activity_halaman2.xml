@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c99e10"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESKRIPSI"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/singhasari_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Halaman4Activity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="museum singhasari"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:fontFamily="monospace"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Museum Singhasari diresmikan pada tanggal 20 Mei 2015. Museum Singhasari berdiri di atas lahan seluas lebih dari 2.000 meter persegi dan luas bangunan sekitar 1.000 meter persegi. Muesum ini disebut memiliki kekhususan dengan sejarah kerajaan Singosari."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="italic"
+        android:layout_margin="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

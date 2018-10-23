@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--linear layout adalah
+linear layout memiliki panjang yang sama dengan parent/layar-->
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="MOTTO HIDUP SAYA"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/myt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="#E0FFFF"
+        android:text="** Barangsiapa ingin mutiara, harus berani terjun di lautan yang dalam.**"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:fontFamily="serif-monospace"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Back"
+            android:id="@+id/bt_back"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <!--didalam linear layout ini nanti kita akan memberikan objek objek lainnya-->
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--linear layout adalah
+linear layout memiliki panjang yang sama dengan parent/layar-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        android:gravity="center"
+        android:background="#E0FFFF"
+        android:id="@+id/myt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Nama"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#7FFFD4 "
+        android:gravity="center"
+        android:id="@+id/tx_fa"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/nim"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:id="@+id/tx_nim"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="PROFIL"
+            android:id="@+id/bt_profil"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="NILAI"
+            android:id="@+id/bt_nilai"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="MOTTO"
+            android:id="@+id/bt_motto"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <!--didalam linear layout ini nanti kita akan memberikan objek objek lainnya-->
+
+</LinearLayout>
